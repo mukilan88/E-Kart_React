@@ -42,4 +42,4 @@ This is a simple React Frontend application that allows users to add and manage 
 
 ## Credits
 
-This project was created by <a href="#" target="_blank">Mukilan Selvaraj</a>.
+This project was created by <a href="https://github.com/mukilan88" target="_blank">Mukilan Selvaraj</a>.
