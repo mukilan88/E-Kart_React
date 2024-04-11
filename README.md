@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Shopping Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React Frontend application that allows users to add and manage items in a shopping cart.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Homepage (homepage.js)**: Displays a list of products fetched from a JSON file (`products.json`). Users can add products to the cart by clicking on the "Add to Cart" button. Once added, the button is disabled to prevent duplicate additions.
 
-### `npm start`
+2. **Cart Page (secondpage.js)**: Shows the items added to the cart along with their quantities and prices. Users can increase or decrease the quantity of each item, remove items from the cart, and view the total cost of the items.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and run `npm install` to install the dependencies.
+   (a) including `react-router-dom`: This library enables you to create dynamic, navigable user interfaces within your React web application. It manages the display of different components based on the URL.
+   (b) including `react-scripts`: This package provides a set of essential scripts and configuration for React projects. It gives you commands for starting your development server, building for production, testing, and more.
 
-### `npm test`
+   ```bash
+   npm install react-router-dom react-scripts
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Start the development server by running `npm start`.
 
-### `npm run build`
+4. Open your browser and go to `http://localhost:3000` to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Files
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **App.js**: The main component that renders the application layout.
+- **App.css**: The stylesheet containing styles for the entire application.
+- **CartContext.js**: Context provider for managing cart state and functions.
+- **Homepage.js**: Component for the homepage, displaying product data and handling cart actions.
+- **SecondPage.js**: Component for the cart page, displaying cart items and managing cart interactions.
+- **index.js**: Entry point of the application.
+- **products.json**: JSON file containing product data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- React
+- React Router
+- JavaScript (ES6)
+- CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created by <a href="#" target="_blank">Mukilan Selvaraj</a>.
